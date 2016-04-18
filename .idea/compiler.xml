@@ -23,11 +23,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="dao" />
+        <module name="Test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dao" target="1.5" />
       <module name="MavenTest1" target="1.5" />
+      <module name="Test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
